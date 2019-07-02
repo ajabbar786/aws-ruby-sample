@@ -1,0 +1,40 @@
+# v2: require 'aws-sdk'
+require "aws-sdk"
+
+Aws.config.update({
+    region: "us-gov-west-1",
+    endpoint: "http://dynamodb.us-gov-west-1.amazonaws.com"
+  
+  })
+
+
+
+dynamodb = Aws::DynamoDB::Client.new
+
+table_name = "StudentData"
+
+params = {
+    table_name: table_name,
+    key_condition_expression: "#fi = :yyyyyyy",
+    expression_attribute_names: {
+        "#fi" => "FanId"
+    },
+    expression_attribute_values: {
+        ":yyyyyyy" => 5424892 
+    }
+}
+
+puts "Querying for fanId 5424892.";
+
+begin
+    result = dynamodb.query(params)
+    puts "Query succeeded."
+    
+    result.items.each{|movie|
+         puts "#{movie["year"].to_i} #{movie["title"]}"
+    }
+
+rescue  Aws::DynamoDB::Errors::ServiceError => error
+    puts "Unable to query table:"
+    puts "#{error.message}"
+end

@@ -28,7 +28,7 @@ require 'uuid'
 #
 # For more information about this interface to Amazon S3, see:
 # http://docs.aws.amazon.com/sdkforruby/api/Aws/S3/Resource.html
-s3 = Aws::S3::Resource.new(region: 'us-west-2')
+s3 = Aws::S3::Resource.new(region: 'us-gov-west-1')
 
 # Everything uploaded to Amazon S3 must belong to a bucket. These buckets are
 # in the global namespace, and must have a unique name.

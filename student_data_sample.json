@@ -1,0 +1,81 @@
+[
+    {
+    "FanId": "5424892",
+    "DB_Id": "252",
+    "Student":{
+        "SocialSecurityNumber":"300578001",
+        "DateOfBirth":"1990-01-01",
+        "FirstName":"BILL"  
+    },
+    "LoanTypeTotals":[
+        {
+        "Type":"FFEL STAFFORD SUBSIDIZED",
+        "OutstandingPrincipal":0,
+        "OutstandingInterest":0
+        },
+        {
+        "Type":"DIRECT STAFFORD UNSUBSIDIZED",
+        "OutstandingPrincipal":970,
+        "OutstandingInterest":969
+        },
+        {
+        "Type":"DIRECT CONSOLIDATED UNSUBSIDIZED",
+        "OutstandingPrincipal":0,
+        "OutstandingInterest":0
+        }
+    ],
+    "Loans":[
+        {
+        "Type":"FFEL STAFFORD SUBSIDIZED",
+        "AwardID":"3135",
+        "NsldsLabel":"30057800100010008"
+        }
+        ]
+    },
+    {
+        "FanId": "5424863",
+        "DB_Id": "252",
+        "Student":{
+            "SocialSecurityNumber":"300578001",
+            "DateOfBirth":"1990-01-01",
+            "FirstName":"BILL"  
+        },
+        "LoanTypeTotals":[
+            {
+            "Type":"FFEL STAFFORD SUBSIDIZED",
+            "OutstandingPrincipal":0,
+            "OutstandingInterest":0
+            },
+            {
+            "Type":"DIRECT STAFFORD UNSUBSIDIZED",
+            "OutstandingPrincipal":970,
+            "OutstandingInterest":969
+            },
+            {
+            "Type":"DIRECT CONSOLIDATED UNSUBSIDIZED",
+            "OutstandingPrincipal":0,
+            "OutstandingInterest":0
+            }
+        ],
+        "Loans":[
+            {
+            "Type":"FFEL STAFFORD SUBSIDIZED",
+            "AwardID":"3135",
+            "NsldsLabel":"30057800100010008",
+            "Statuses":[
+                {
+                  "Code":"PF",
+                  "Description":"PAID IN FULL",
+                  "EffectiveDate":"2012-01-01"
+                }
+              ],
+              "Disbursements":[
+                {
+                  "Date":"2010-03-01",
+                  "Amount":4000
+                }
+              ]
+            }
+            ]
+        }
+]

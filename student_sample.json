@@ -1,0 +1,42 @@
+[
+    {
+        "SocialSecurityNumber":252626525,
+        "DateOfBirth":"1990-01-01",
+        "FirstName":"BILL",
+        "LastName":"ME",
+        "LoanTypeTotals":[
+            {
+            "Type":"FFEL STAFFORD SUBSIDIZED",
+            "OutstandingPrincipal":0,
+            "OutstandingInterest":0
+            },
+            {
+            "Type":"DIRECT STAFFORD UNSUBSIDIZED",
+            "OutstandingPrincipal":970,
+            "OutstandingInterest":969
+            },
+            {
+            "Type":"DIRECT CONSOLIDATED UNSUBSIDIZED",
+            "OutstandingPrincipal":0,
+            "OutstandingInterest":0
+            }
+        ],
+        "Loans":[
+            {
+            "Type":"FFEL STAFFORD SUBSIDIZED",
+            "AwardID":"25255",
+            "NsldsLabel":"30057800100010008",
+            "AttendingSchoolName":"ALABAMA AGRICULTURAL & MECHANICAL UNIVERSITY",
+            "AttendingSchoolOPEID":"00100200",
+            "Date":"2010-01-01",
+            "Statuses":[
+                {
+                "Code":"PF",
+                "Description":"PAID IN FULL",
+                "EffectiveDate":"2012-01-01"
+                }
+            ]
+            }
+        ]    
+    }
+]
